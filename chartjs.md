@@ -7,4 +7,8 @@ Then add the link into our html file
 ```html
 <script src='Chart.min.js'></script>
 ```
+Examples:
 
+**Bar Chart**
+
+![](./chartimg/chart1.png =250x)
