@@ -11,5 +11,4 @@ Examples:
 
 **Bar Chart**
 
-![](/chartimg/chart1.png)
-<img src="/chartimg/chart1.png" height="50" width="50" >
+<img src="/chartimg/chart1.png" height="300" width="300" >
