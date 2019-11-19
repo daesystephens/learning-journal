@@ -11,4 +11,4 @@ Examples:
 
 **Bar Chart**
 
-![](/chartimg/chart1.png =250x)
+![](../chartimg/chart1.png)
