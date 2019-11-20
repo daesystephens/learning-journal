@@ -1,4 +1,13 @@
-# INTRODUCING HTML5 STORAGE
-What I will refer to as “HTML5 Storage” is a specification named Web Storage, which was at one time part of the HTML5 specification proper, but was split out into its own specification for uninteresting political reasons. Certain browser vendors also refer to it as “Local Storage” or “DOM Storage.” The naming situation is made even more complicated by some related, similarly-named, emerging standards that I’ll discuss later in this chapter.
+# LOCAL STORAGE
 
-So what is HTML5 Storage? Simply put, it’s a way for web pages to store named key/value pairs locally, within the client web browser. Like cookies, this data persists even after you navigate away from the web site, close your browser tab, exit your browser, or what have you. Unlike cookies, this data is never transmitted to the remote web server (unless you go out of your way to send it manually). Unlike all previous attempts at providing persistent local storage, it is implemented natively in web browsers, so it is available even when third-party browser plugins are not.
+Local Storage is a type of storage that allows Javascript and apps to store and also able to access data in the browser. This means that the data will be in the browser even after the window has been closed
+
+Is a way to save data in the client's computer. Storing data without expiration date. This data can only be accesed by JavaScript and HTML5 
+
+There are 5 methods to use local storage 
+1. **setItem():** add key and value to local storage
+2. **getItem():** retrieve a value by the key from local storage
+3. **removeItem():** remove an item by the key from local storage
+4. **clear():** clear all local storage
+5. **key():** passed a number to retrieve nth key of local storage
+
