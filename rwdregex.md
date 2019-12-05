@@ -23,5 +23,5 @@ Regex. Short for regular expression, a regex is a string of text that allows you
 | Alphanumeric with space | ```/^[a-zA-Z0-9 ]*$/``` |
 | Common email Ids | ```/^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6})*$/``` |
 | Username Alphanumeric string | ```/^[a-z0-9_-]{3,16}$/``` |
-| HTML Tags Elements with Attributes | ```/<\/?[\w\s]*>|<.+[\W]>/``` |
+| HTML Tags Elements with Attributes | ```/<\/?[\w\s*>|<.+[\W]>/``` |
 | Inline JS handler | ```/\bon\w+=\S+(?=.*>)/``` |
