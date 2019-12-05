@@ -9,7 +9,7 @@ Steps
 
 1. Create an account with Heroku.
 
-1. Once in Heroku on the right side click the **+** button to create a new app.
+1. Once in Heroku on the right side click the ```+``` button to create a new app.
 
 1. Name your app.
 
@@ -27,4 +27,4 @@ Steps
 
 1. Go back to Heroku and on the left hand side click "Personal Apps" and click on your project.
 
-1. On the right hand top corner click on the **"..."** (three dots) and select **"open app"**
+1. On the right hand top corner click on the ```...``` (three dots) and select **"open app"**
