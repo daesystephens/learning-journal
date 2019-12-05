@@ -9,11 +9,11 @@ Steps
 
 1. Create an account with Heroku.
 
-1. Click the right + button to create a new app.
+1. Once in Heroku on the right side click the **+** button to create a new app.
 
 1. Name your app.
 
-1. Once you are into your file project type in your command line ```$ heroku login``` and it's going to ask for your email and password. This will be the email that you signed up to Heroku.
+1. In your **Terminal** once you are in your file root, type in your command line ```$ heroku login``` and it's going to ask for your email and password. This will be the email that you signed up to Heroku.
 
 1. In your command line type ```$ git init```
 
@@ -21,7 +21,7 @@ Steps
 
 1. In your command line type ```$ git add .```
 
-1.  ```$ git commit -am "my-first-heroku-project"```
+1.  ```$ git commit -am "any message here ex. my-first-heroku-project"```
 
 1. ```git push heroku master```
 
