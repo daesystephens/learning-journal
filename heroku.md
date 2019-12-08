@@ -1,9 +1,11 @@
 # HEROKU
 
 Heroku is a free web site hosting service that allows you to host your application within minutes.
-It is developer friendly and easy to use
+It is developer friendly and easy to use. 
 
-Steps
+**You can also store data in Heroku**
+
+Steps to Deploy a basic website
 
 1. Make sure all your links are in CDN (like jQuery).
 
