@@ -5,8 +5,12 @@ EJS is a simple templating language that lets you generate HTML markup with plai
 For example, if we have and html code ```<h1><%= dayOfTheWeek %></h1>```, dayOfTheWeek is a variable from your application, and what is gonna show on the screen is the variable's value.
 
 **Install**
+
 in terminal 
-```$ npm install ejs```
+
+```
+$ npm install ejs
+```
 
 **Use it**
 
@@ -17,7 +21,8 @@ IN server.js
 <script>
   let people = ['Yoshi', 'Chance', 'Nick', 'Joshua'],
       html = ejs.render('<%= people.join(", "); %>', {people: people});
-</script>```
+</script>
+```
 
 In index.html
 
@@ -26,7 +31,8 @@ In index.html
   <% people.forEach(function(name){ %>
     <li><%= name %></li>
   <% }) %>
-</ul>```
+</ul>
+```
 
 Output will be same like this
 
@@ -37,5 +43,6 @@ Output will be same like this
       <li>Chance</li>
       <li>Nick</li>
       <li>Joshua</li>
-    </ul>```
+    </ul>
+```
 
