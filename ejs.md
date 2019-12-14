@@ -9,15 +9,15 @@ in terminal
 ```$ npm install ejs```
 
 **Use it**
+
 IN server.js
 
-```javascript
+```html
 <script src="ejs.js"></script>
 <script>
   let people = ['Yoshi', 'Chance', 'Nick', 'Joshua'],
       html = ejs.render('<%= people.join(", "); %>', {people: people});
-</script>
-```
+</script>```
 
 In index.html
 
@@ -37,6 +37,5 @@ Output will be same like this
       <li>Chance</li>
       <li>Nick</li>
       <li>Joshua</li>
-    </ul>
-```
+    </ul>```
 
